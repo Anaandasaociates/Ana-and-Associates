@@ -123,8 +123,7 @@ export default function Footer() {
           {/* copyright reserved */}
           <div className="mt-6 md:mt-0">
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Habeeb Jimoh & Associates. All
-              rights reserved.
+              &copy; 2025 All rights reserved.
             </p>
           </div>
         </div>
