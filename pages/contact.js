@@ -40,43 +40,43 @@ const Contact = () => {
     setIsSubmitting(true);
     setStatus({ type: "", message: "" });
 
-    try {
-      const response = await fetch("https://formspree.io/f/mjkjkkrw", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(formData)
-      });
+    //   try {
+    //     const response = await fetch("https://formspree.io/f/mjkjkkrw", {
+    //       method: "POST",
+    //       headers: {
+    //         "Content-Type": "application/json"
+    //       },
+    //       body: JSON.stringify(formData)
+    //     });
 
-      const data = await response.json();
+    //     const data = await response.json();
 
-      if (response.ok) {
-        setStatus({
-          type: "Success",
-          message: "Message sent successfully! We'll get back to you soon."
-        });
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          subject: "",
-          message: ""
-        });
-      } else {
-        setStatus({
-          type: "error",
-          message: data.error || "Something went wrong. Please try again"
-        });
-      }
-    } catch (error) {
-      setStatus({
-        type: "error",
-        message: "Something went wrong. Please try again"
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    //     if (response.ok) {
+    //       setStatus({
+    //         type: "Success",
+    //         message: "Message sent successfully! We'll get back to you soon."
+    //       });
+    //       setFormData({
+    //         name: "",
+    //         email: "",
+    //         phone: "",
+    //         subject: "",
+    //         message: ""
+    //       });
+    //     } else {
+    //       setStatus({
+    //         type: "error",
+    //         message: data.error || "Something went wrong. Please try again"
+    //       });
+    //     }
+    //   } catch (error) {
+    //     setStatus({
+    //       type: "error",
+    //       message: "Something went wrong. Please try again"
+    //     });
+    //   } finally {
+    //     setIsSubmitting(false);
+    //   }
   };
 
   return (
