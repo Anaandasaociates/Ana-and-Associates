@@ -40,10 +40,16 @@ const attorneys = [
     image: "/lawyer3.png"
   },
   {
-    name: "K. O. Jimoh (Mrs)",
+    name: "Kikelomo Azeez (Mrs)",
     title: "Practice Manager",
-    bio: "Mrs. Jimoh handles the complex job of managing all our internal processes, using her strong background in project management and data analysis to keep the firm on track. She is very good at tracking key performance indicators and making sure our schedules are met, which is important for a busy law firm where time is always short. She works closely with the partners to make sure we follow all the necessary rules and that our internal governance is strong, a necessary part of her job. Her focus is always on efficiency; she helped streamline the firm’s internal processes, which actually cut down on project delays and improved how we handle meetings. Mrs. Jimoh is the operational backbone of the firm, and her dedication to organized work is a huge part of the service we give our clients.",
+    bio: "Mrs. Azeez handles the complex job of managing all our internal processes, using her strong background in project management and data analysis to keep the firm on track. She is very good at tracking key performance indicators and making sure our schedules are met, which is important for a busy law firm where time is always short. She works closely with the partners to make sure we follow all the necessary rules and that our internal governance is strong, a necessary part of her job. Her focus is always on efficiency; she helped streamline the firm’s internal processes, which actually cut down on project delays and improved how we handle meetings. Mrs. Azeez is the operational backbone of the firm, and her dedication to organized work is a huge part of the service we give our clients.",
     image: "/lawyer5.png"
+  },
+  {
+    name: "M.K. Adebiyi",
+    title: "Partner",
+    bio: "M.K. Adebiyi is a versatile legal professional with extensive experience in corporate law, international trade, and immigration compliance. A proud member of the Nigerian Bar Association (NBA), she began her career after being called to the Nigerian Bar, where she focused on corporate and commercial law. During this time, she advised businesses across diverse industries on regulatory compliance, contract management, and dispute resolution. Moridiyat holds a Master of Laws (LL.M.) degree from the University of Illinois Urbana-Champaign (UIUC), with a concentration in Commercial, Corporate, and International Trade Law. While at UIUC, she also completed advanced coursework in Negotiation Skills and Strategy, honing her ability to navigate complex transactions and resolve disputes effectively. In her current practice, Moridiyat concentrates on immigration law, where she leads initiatives to enhance compliance systems and develops innovative frameworks for fraud detection and risk management. Alongside her immigration work, she continues to provide corporate advisory services, support cross-border transactions, and guide clients through regulatory compliance matters. With a strong interest in leveraging technology and advanced negotiation strategies, she delivers tailored, forward-thinking legal solutions that meet the evolving needs of clients in today’s global marketplace.",
+    image: "/lawyer4.png"
   }
 ];
 
